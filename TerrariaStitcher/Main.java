@@ -6,6 +6,11 @@ import java.io.IOException;
 
 public class Main {
 
+    // TODO:
+    // Avoid using memory so I dont have to 'section' the final image
+    // Figure out how terraria names its screencaps, or loop from 0->n
+    // GUI?
+    // Error catching
     public static void main(String[] args) throws IOException {
         // {x, y}, each coordinate represents n in the equation 40 + (126 * n)
         int[][] sizeRange = {{0, 0}, {50, 14}, {0, 0}};
