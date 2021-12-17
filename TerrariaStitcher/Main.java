@@ -38,7 +38,7 @@ public class Main {
                 }
             }
 
-            File file = new File(folderPath + "\\world" + String.valueOf(section) + ".png");
+            File file = new File(folderPath + "world" + String.valueOf(section) + ".png");
             if (file.createNewFile()) {
                 System.out.println("Stitching (" + String.valueOf(section+1) + "/" + String.valueOf(sections) + ")");
             } else {
